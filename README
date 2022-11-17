@@ -1,0 +1,23 @@
+ // QUESTION 1
+// Given an array of profile objects having properties first name, last name,
+// email, and image url, create an HTML page showing image cards for each profile.
+// The page should include arrows to the left and to the right of each card, such
+// that on click of any of the arrows, the next or previous card is loaded into
+// view.
+// Your project should be a folder having files main.css, index.html and main.js.
+// It should be uploaded to your GitHub repo and named "my-code-outlaws-project"
+const profiles = [
+    {id: 1, first_name: "Blessing", last_name: "Adeika", email: "beable@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=37"},
+    {id: 2, first_name: "Favour", last_name: "Adegoke", email: "favour@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=44"},
+    {id: 3, first_name: "Faith", last_name: "Adegoke", email: "faith@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=45"},
+    {id: 4, first_name: "Dunmoye", last_name: "Ayobami", email: "ayobami@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=47"},
+    {id: 5, first_name: "Abisola", last_name: "Agiode", email: "abisola@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=49"},
+    {id: 6, first_name: "Adefola", last_name: "Alabi", email: "adefola@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=51"},
+    {id: 7, first_name: "Deji", last_name: "Gbayegun", email: "deji@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=64"},
+    {id: 8, first_name: "Ovie", last_name: "Uwanoghor", email: "oviking@codeoutlaws.com", image_url: "https://i.pravatar.cc/150?img=69"}
+];
+
+// QUESTION 2
+// Look into your field or community (field could be Architecture, Medicine, Education, Microbiology etc. while
+// community refers to your immediate environment), identify a problem that programming can solve. Use your
+// knowledge of SDLC to draw out how you intend to bring that software from an idea into a finished product.
