@@ -47,6 +47,10 @@ img{
 .slide{
     animation-name: fade;
     animation-duration: 1.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @keyframes fade {
     from {opacity: .5}
